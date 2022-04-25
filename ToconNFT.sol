@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract NewContract is ERC721, Ownable {
+contract ToconNFT is ERC721, Ownable {
 
     using Strings for uint256;
     using Counters for Counters.Counter;
